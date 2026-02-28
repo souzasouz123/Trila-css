@@ -1,0 +1,113 @@
+  /* Configurações Gerais */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+      color: white;
+      text-align: center;
+      background-color: #050505;
+  }
+
+  /* Imagem de Fundo Fixa */
+  .background-fixo {
+      background-image: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+      /* Imagem Tech */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+  }
+
+  /* Hero Section (Topo) */
+  .hero {
+      padding: 50px 20px;
+      background: rgba(0, 0, 0, 0.6);
+  }
+
+  .img-dev {
+      width: 150px;
+      border-radius: 50%;
+      border: 3px solid #E44D26;
+      /* Cor do CSS/HTML */
+      margin-bottom: 20px;
+  }
+
+  .btn-inscrever {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 40px;
+      background-color: #E44D26;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 30px;
+      transition: 0.3s;
+  }
+
+  .btn-inscrever:hover {
+      background-color: #f06529;
+      transform: scale(1.05);
+  }
+
+  /* Seção O Que Vou Aprender */
+  .modulos-container {
+      padding: 60px 20px;
+      background-color: #121212;
+  }
+
+  .grid-modulos {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+  }
+
+  .card {
+      background: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      border-bottom: 4px solid #E44D26;
+  }
+
+  /* Seção Transparente (Efeito Vidro) */
+  .sessao-transparente {
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(5px);
+      /* Efeito de desfoque leve */
+      margin: 50px 0;
+  }
+
+  .sessao-transparente h2 {
+      font-size: 3rem;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+  }
+
+  /* Rodapé / Final */
+  .footer-evolua {
+      padding: 60px 20px;
+      background: #000;
+  }
+
+  .img-footer {
+      width: 300px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+  }
+
+  .footer-evolua p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+  }
